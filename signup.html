@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <?php
+include 'navbar.php';
+         ?> -->
+       <div w3-include-html="navbar.html"></div>
+    <div class="container">
+        <form action="handle_signup.php" method="POST">
+            <center>
+                <h2>User signup page</h2>
+            </center>
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelpId"
+                placeholder="enter your name" />
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+                placeholder="abc@mail.com" />
+            <label for="mobile" class="form-label">Mobile:</label>
+            <input type="number" class="form-control" name="mobile" id="mobile" aria-describedby="emailHelpId"
+                placeholder="Enter your mobile number" />
+
+            <label for="pass" class="form-label">Password:</label>
+            <input type="password" class="form-control" name="pass" id="pass" aria-describedby="emailHelpId"
+                placeholder="enter password" />
+
+            <center> <button class="btn" type="submit" name="submit">
+                    Submit
+                </button></center>
+                <a href="login.html">Already Existing User</a>
+                
+        </form>
+    </div>
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>

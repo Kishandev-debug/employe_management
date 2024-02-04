@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    background-color: rgb(238, 140, 140);
+    padding: 12px;
+    
+    /* height: 20px; */
+   
+}
+.nav li{
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(40, 11, 11);
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(179, 205, 234);
+    background-image: url("https: //okcredit-blog-images-prod.storage.googleapis.com/2021/03/Employee-and-Staff-Management2--1-.jpg") no-repeat right top;
+}
+ul {
+    display: inline;
+}
+
+
+

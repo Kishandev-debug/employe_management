@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: rgb(240, 209, 171);
+
+}
+
+table{
+    border: 1.5px solid black;
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: rgb(193, 218, 240);
+   
+}
+table th {
+    padding: 20px;
+
+border: 1.5px solid black;
+
+}
+table td { 
+    padding: 20px;
+border: 1.5px solid black;
+}
